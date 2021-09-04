@@ -23,8 +23,6 @@ class AuthProvider extends ChangeNotifier {
     };
 
     CafeApi.httpPost('/auth/login', data).then((json) {
-      print(json);
-
       final authResponse = AuthResponse.fromMap(json);
 
       this.user = authResponse.usuario;
@@ -48,8 +46,6 @@ class AuthProvider extends ChangeNotifier {
     final data = {'nombre': name, 'correo': email, 'password': password};
 
     CafeApi.httpPost('/usuarios', data).then((json) {
-      print(json);
-
       final authResponse = AuthResponse.fromMap(json);
 
       this.user = authResponse.usuario;
@@ -76,8 +72,6 @@ class AuthProvider extends ChangeNotifier {
 
   Future<bool> isAuthenticated() async {
     final token = LocalStorage.prefs.getString('token');
-
-    print(token);
 
     if (token == null) {
       authStatus = AuthStatus.notAuthenticated;

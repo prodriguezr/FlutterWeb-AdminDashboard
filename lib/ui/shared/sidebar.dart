@@ -35,9 +35,9 @@ class Sidebar extends StatelessWidget {
           MenuItem(
             text: 'Dashboard',
             icon: Icons.compass_calibration_outlined,
-            onPressed: () => navigateTo(Flurorouter.dashboardRoute),
-            isActive:
-                sideMenuProvider.currentPage == Flurorouter.dashboardRoute,
+            onPressed: () => navigateTo(CustomFluroRouter.dashboardRoute),
+            isActive: sideMenuProvider.currentPage ==
+                CustomFluroRouter.dashboardRoute,
           ),
           MenuItem(
               text: 'Orders',
@@ -50,9 +50,9 @@ class Sidebar extends StatelessWidget {
           MenuItem(
               text: 'Categories',
               icon: Icons.layers_outlined,
-              onPressed: () => navigateTo(Flurorouter.categoriesRoute),
-              isActive:
-                  sideMenuProvider.currentPage == Flurorouter.categoriesRoute),
+              onPressed: () => navigateTo(CustomFluroRouter.categoriesRoute),
+              isActive: sideMenuProvider.currentPage ==
+                  CustomFluroRouter.categoriesRoute),
           MenuItem(
               text: 'Products',
               icon: Icons.dashboard_outlined,
@@ -62,16 +62,19 @@ class Sidebar extends StatelessWidget {
               icon: Icons.attach_money_outlined,
               onPressed: () {}),
           MenuItem(
-              text: 'Customers',
+              text: 'Users',
               icon: Icons.people_alt_outlined,
-              onPressed: () {}),
+              onPressed: () => navigateTo(CustomFluroRouter.usersRoute),
+              isActive:
+                  sideMenuProvider.currentPage == CustomFluroRouter.usersRoute),
           SizedBox(height: 30),
           TextSeparator(text: 'UI Elements'),
           MenuItem(
             text: 'Icons',
             icon: Icons.list_alt_outlined,
-            onPressed: () => navigateTo(Flurorouter.iconsRoute),
-            isActive: sideMenuProvider.currentPage == Flurorouter.iconsRoute,
+            onPressed: () => navigateTo(CustomFluroRouter.iconsRoute),
+            isActive:
+                sideMenuProvider.currentPage == CustomFluroRouter.iconsRoute,
           ),
           MenuItem(
               text: 'Marketing',
@@ -84,8 +87,9 @@ class Sidebar extends StatelessWidget {
           MenuItem(
             text: 'Black',
             icon: Icons.post_add_outlined,
-            onPressed: () => navigateTo(Flurorouter.blankRoute),
-            isActive: sideMenuProvider.currentPage == Flurorouter.blankRoute,
+            onPressed: () => navigateTo(CustomFluroRouter.blankRoute),
+            isActive:
+                sideMenuProvider.currentPage == CustomFluroRouter.blankRoute,
           ),
           SizedBox(height: 50),
           TextSeparator(text: 'Exit'),

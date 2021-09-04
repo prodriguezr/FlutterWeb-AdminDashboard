@@ -16,7 +16,7 @@ void main() async {
 
   CafeApi.configureDio();
 
-  Flurorouter.configureRoutes();
+  CustomFluroRouter.configureRoutes();
   runApp(AppState());
 }
 
@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Admin Dashboard',
       initialRoute: '/',
-      onGenerateRoute: Flurorouter.router.generator,
+      onGenerateRoute: CustomFluroRouter.router.generator,
       navigatorKey: NavigationService.navigatorKey,
       scaffoldMessengerKey: NotificationsService.key,
       builder: (_, child) {

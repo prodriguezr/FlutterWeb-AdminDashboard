@@ -1,0 +1,162 @@
+[
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 1",
+        "correo": "test1@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 2",
+        "correo": "test2@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 3",
+        "correo": "test3@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 4",
+        "correo": "test4@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 5",
+        "correo": "test5@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 6",
+        "correo": "test6@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 7",
+        "correo": "test7@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 8",
+        "correo": "test8@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 9",
+        "correo": "test9@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 10",
+        "correo": "test10@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 11",
+        "correo": "test11@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 12",
+        "correo": "test12@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 13",
+        "correo": "test13@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 14",
+        "correo": "test14@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 15",
+        "correo": "test15@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 16",
+        "correo": "test16@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 17",
+        "correo": "test17@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 18",
+        "correo": "test18@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 19",
+        "correo": "test19@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    },
+    {   
+        "rol": "USER_ROLE",
+        "estado": true,
+        "google": false,
+        "nombre": "Test 20",
+        "correo": "test20@pp.cl",
+        "password": "$2a$10$2KjOijjnj.ub6uwrWjA4k.orPghR4hDNHf9/t2r057sVcFsIzQ/Q2"
+    }
+]

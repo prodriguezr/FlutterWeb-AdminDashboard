@@ -82,6 +82,8 @@ class _CategoryModalState extends State<CategoryModal> {
                       NotificationsService.showSnackbar(
                           'Category created sucessfully');
                     } catch (e) {
+                      Navigator.of(context).pop();
+
                       NotificationsService.showSnackbarError(
                           'Category could not be created');
                     }
@@ -89,14 +91,18 @@ class _CategoryModalState extends State<CategoryModal> {
                     // Update
                     try {
                       await categoryProvider.updateCategory(id!, name);
+
+                      Navigator.of(context).pop();
+
                       NotificationsService.showSnackbar(
                           'Category updated sucessfully');
                     } catch (e) {
+                      Navigator.of(context).pop();
+
                       NotificationsService.showSnackbarError(
                           'Category could not be updated');
                     }
                   }
-                  Navigator.of(context).pop();
                 },
                 text: 'Save',
                 color: Colors.white,

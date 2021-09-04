@@ -106,7 +106,7 @@ class RegisterView extends StatelessWidget {
                         text: 'Ir al login',
                         onPressed: () {
                           Navigator.pushReplacementNamed(
-                              context, Flurorouter.loginRoute);
+                              context, CustomFluroRouter.loginRoute);
                         },
                       )
                     ],

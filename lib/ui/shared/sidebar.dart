@@ -14,7 +14,7 @@ import 'package:admin_dashboard/ui/shared/widgets/text_separator.dart';
 
 class Sidebar extends StatelessWidget {
   void navigateTo(String routeName) {
-    NavigationService.navigateTo(routeName);
+    NavigationService.replaceTo(routeName);
     SideMenuProvider.closeMenu();
   }
 
